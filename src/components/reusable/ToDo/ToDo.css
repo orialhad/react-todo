@@ -7,15 +7,18 @@
     margin: 10px;
     width: 360px;
     flex-direction: row;
-    color: #e0dcdc;
-
-}
-.todo.completed{
-   background: #e0dcdc;
     color: #353432;
+    background: #e0dcdc;
+
 }
 
-.task{
+.todo.completed {
+    color: #e0dcdc;
+    background: #353432;
+
+}
+
+.task {
     display: flex;
     align-items: center;
 }
@@ -35,13 +38,14 @@
     width: 20px;
     margin: 0 5px 0 0;
 }
-.process-btn:hover  .tooltiptext {
+
+.process-btn:hover .tooltiptext {
     cursor: pointer;
     display: block;
     width: 100px;
 }
 
-.tooltiptext{
+.tooltiptext {
     display: none;
 }
 
@@ -55,17 +59,18 @@
     align-items: center;
     margin: 0 5px 0 0;
 }
-.complete-btn:hover{
+
+.complete-btn:hover {
     cursor: pointer;
 }
 
-.complete-btn.completed{
+.complete-btn.completed {
     background: #57c457;
     font-weight: bold;
 }
 
 .process-btn.process {
-    background: white;
+    background: orange;
 }
 
 .add-tsk-btns {
