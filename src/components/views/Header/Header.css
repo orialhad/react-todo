@@ -1,0 +1,16 @@
+header {
+    min-height: 80px;
+    flex: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Special Elite', cursive;
+    background: #62afd88f;
+    color: white;
+}
+
+.header{
+    font-size: 40px;
+    /*text-decoration: line-through;*/
+    /*text-decoration-thickness: 0.05em;*/
+}

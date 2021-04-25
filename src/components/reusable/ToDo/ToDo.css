@@ -1,0 +1,77 @@
+.todo {
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    width: 360px;
+    flex-direction: row;
+    color: #e0dcdc;
+
+}
+.todo.completed{
+   background: #e0dcdc;
+    color: #353432;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+}
+
+.task.completed {
+    text-decoration: line-through;
+}
+
+/*.task.process {*/
+/*    background: orange;*/
+/*}*/
+
+.process-btn {
+    border-radius: 50px;
+    border: 1px solid white;
+    height: 20px;
+    width: 20px;
+    margin: 0 5px 0 0;
+}
+.process-btn:hover  .tooltiptext {
+    cursor: pointer;
+    display: block;
+    width: 100px;
+}
+
+.tooltiptext{
+    display: none;
+}
+
+.complete-btn {
+    border-radius: 50px;
+    border: 1px solid white;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px 0 0;
+}
+.complete-btn:hover{
+    cursor: pointer;
+}
+
+.complete-btn.completed{
+    background: #57c457;
+    font-weight: bold;
+}
+
+.process-btn.process {
+    background: white;
+}
+
+.add-tsk-btns {
+    padding: 10px 0 10px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+
